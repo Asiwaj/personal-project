@@ -15,7 +15,7 @@ jobs:
       - name: Active pnpm
         run: |
           corepack enable
-          corepack preapre pnpm@8.5.1 --activate
+          corepack prepare pnpm@8.5.1 --activate
       - name: Install dependencies
         run: pnpm install
       - name: Publish to NPM
