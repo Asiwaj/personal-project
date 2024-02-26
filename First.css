@@ -1,0 +1,50 @@
+body{
+    padding-top: 3rem;
+    background-color: antiquewhite;
+}
+.bob{
+    padding: 2rem 0;
+    width: 100%;
+    height: 30rem;
+    /* border: 0.1rem solid black; */
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 3rem;
+    background-color: transparent;
+}
+img{
+    width: 5rem;
+    height: auto;
+    border-radius: 3rem;
+}
+.tom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 0.1rem solid black; */
+    border-radius: 1rem;
+    padding: 0 2rem;
+    align-items: center;
+    background-color: gray;
+}
+.rom{
+    background-color: skyblue;
+}
+.roma{
+    background-color: orange;
+}
+.romb{
+    background-color: greenyellow;
+}
+button{
+    box-shadow: -0.2rem 0.2rem black;
+}
+button:hover{
+    /* opacity: 50%; */
+    transform: translate(-0.2rem,0.2rem);
+    cursor: pointer;
+    box-shadow: 0rem 0rem;
+}
+.texta{
+    color: azure;
+}
