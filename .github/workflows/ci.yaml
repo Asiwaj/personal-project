@@ -19,4 +19,4 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Publish to NPM
-        run: pnpm publish
+        run: pnpm publish --no-git-checks
