@@ -12,6 +12,26 @@ body{
     margin-bottom: 3rem;
     background-color: transparent;
 }
+.bib {
+    padding: 2rem 0;
+    width: 100%;
+    height: 30rem;
+    /* border: 0.1rem solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    background-color: transparent;
+}
+.bib div{
+    display: flex;
+        justify-content: space-around;
+        /* border: 0.1rem solid black; */
+        border-radius: 1rem;
+        /* padding: 0 2rem; */
+        align-items: center;
+        background-color: gray;
+        flex-direction: column;
+}
 img{
     width: 5rem;
     height: auto;
@@ -19,13 +39,12 @@ img{
 }
 .tom{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  justify-content: space-around;
     /* border: 0.1rem solid black; */
     border-radius: 1rem;
     padding: 0 2rem;
     align-items: center;
-    background-color: gray;
+    background-color: gray;    flex-direction: column; 
 }
 .rom{
     background-color: skyblue;
