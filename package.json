@@ -1,12 +1,17 @@
 {
   "name": "asiwaj-personal-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "My Tea money thing innit",
+  "homepage": "https://asiwaj.github.io/asiwaj-personal-project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://asiwaj.github.io/asiwaj-personal-project"
+  },
   "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["html", "css", "javascript"],
+  "author": "asiwaj <asiegbuchibundu@gmail.com>",
   "license": "ISC"
 }
